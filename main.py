@@ -7,7 +7,7 @@ api_key = "b7c2eeefffd7454faee79aca01023787"
 url = (f"https://newsapi.org/v2/everything?q={topic}"
        f"&from=2023-09-28"
        f"&sortBy=publishedAt"
-       f"&apiKey=b7c2eeefffd7454faee79aca01023787"
+       f"&apiKey={api_key}"
        f"&language=en")
 
 req = requests.get(url)
